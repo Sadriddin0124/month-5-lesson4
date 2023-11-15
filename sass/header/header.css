@@ -1,0 +1,157 @@
+.header__sign, .header, .nav__list, .nav__logo, .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.header__title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFF;
+}
+
+.header__subtitle {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.header, .navbar {
+  background-color: #1F2E35;
+}
+
+.btn__global {
+  font-size: 16px;
+  padding: 10px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.nav__logo {
+  gap: 16px;
+}
+
+.nav__text {
+  color: #FFF;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px; /* 93.333% */
+}
+
+.nav__list {
+  gap: 24px;
+}
+.nav__list .nav__links {
+  color: #fff;
+}
+
+.btn__trans {
+  border: 1px solid #BCD0E5;
+  background: transparent;
+  color: #fff;
+}
+
+.btn__green {
+  background: #02897A;
+  color: #fff;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+}
+.circle img {
+  width: 100%;
+  height: 100%;
+}
+
+.bars div {
+  width: 30px;
+  height: 3px;
+  margin: 7px;
+  background: #fff;
+  border-radius: 4px;
+  display: none;
+}
+
+.header {
+  width: 100%;
+  min-height: 110vh;
+  padding: 200px 20px 100px;
+  flex-wrap: wrap-reverse;
+  gap: 20px;
+}
+
+.header__text {
+  max-width: 520px;
+  min-height: 425px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header__title {
+  text-align: left;
+  max-width: 360px;
+}
+
+.header__subtitle {
+  max-width: 520px;
+}
+
+.header__sign {
+  max-width: 469.45px;
+  width: 100%;
+  min-height: 66px;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 100px;
+  border: 1px solid #EAEAEA;
+}
+.header__sign .header__btn {
+  padding: 14px 24px;
+  border-radius: 100px;
+}
+.header__sign input {
+  border-radius: 100px;
+  border: none;
+  background-color: transparent;
+  padding: 15px 20px;
+  caret-color: #FFF;
+  color: #FFF;
+}
+.header__sign ::-moz-placeholder {
+  color: #FFF;
+}
+.header__sign ::placeholder {
+  color: #FFF;
+}
+
+.header__img {
+  max-width: 575px;
+}
+.header__img img {
+  width: 100%;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,75 @@
+.stories__card .scard__text, .stories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.stories__title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFF;
+}
+
+.stories__subtitle {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.stories {
+  background-color: #1F2E35;
+}
+
+.stories {
+  padding: 100px 20px;
+  gap: 10px;
+}
+
+.stories__cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 32px;
+}
+
+.stories__card {
+  max-width: 350px;
+  border: 1px solid #DEDEDE;
+  border-radius: 8px;
+  background: #fff;
+}
+.stories__card .scard__img {
+  width: 100%;
+}
+.stories__card .scard__img img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.stories__card .scard__text {
+  padding: 0 24px 24px;
+  align-items: flex-start;
+  gap: 12px;
+}
+.stories__card .stories__top {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.stories__card .stories__top span {
+  font-weight: 900;
+}
+.stories__card .scard__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+}/*# sourceMappingURL=stories.css.map */
